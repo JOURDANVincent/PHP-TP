@@ -1,0 +1,152 @@
+html, body {
+    background-color: black !important;
+    /* color: white; */
+    /* font-family: 'Anton', sans-serif; */
+
+}
+
+.txt1 {
+    color: #203040 !important;
+}
+
+.txt2 {
+    color: #aaa !important;
+}
+
+h1 {
+    color: rgb(0, 255, 76) !important;
+}
+
+h2 {
+    color: #bbb !important;
+    font-size: 20px!important;
+    margin-top: 10px !important;
+}
+
+.bg1 {
+    background-color: black !important;
+}
+
+.bgForm, .bg2 {
+    background-color: #20304050 !important;
+    color: rgba(0, 255, 76, 0.623);
+    border: 1px solid #808080 !important;
+    border-radius: 5px;
+}
+
+.bgData {
+    background-color: #20304050 !important;
+    color: #808080 !important;
+    border: 1px solid #808080 !important;
+    border-radius: 5px;
+}
+
+.bgError {
+    border: 1px solid red !important;
+    background-color: rgba(255, 0, 0, 0.055) !important;
+    border-radius: 5px !important;
+}
+
+.regexAlert {
+    color: red !important;
+}
+
+.titleAlert {
+    font-size: 20px !important;
+    color: rgb(197, 21, 21);
+}
+
+fieldset legend {
+    font-size: 18px !important;
+    margin-left: 10px !important;
+}
+
+input:focus:invalid {
+    border: 1px solid red !important;
+    box-shadow: 0 0 5px 1px red;
+}
+
+.btn.bg3,
+.btn.bg4 {
+    background-color: #203040;
+    color: #fff;
+    border: 1px solid #888 !important;
+}
+.btn.bg3:active,
+.btn.bg3:hover,
+.btn.bg3:focus {
+    background-color: rgba(0, 255, 76, 0.123) !important;
+    color:white;
+    border: 1px solid  rgb(0, 255, 76) !important;
+}
+.btn.bg4:active,
+.btn.bg4:hover,
+.btn.bg4:focus {
+    background-color:  rgba(255, 30, 0, 0.123) !important;
+    color:white;
+    border: 1px solid  rgb(255, 30, 0) !important;
+}
+  
+input,
+select,
+textarea {
+    background-color: #0005!important;
+    border: 1px solid #404040 !important;
+} 
+
+input :checked {
+    background-color: rgba(0, 255, 76, 0.623) !important;
+}
+
+input:active,
+textarea:focus,
+select:focus {
+    background-color: #0005!important;
+    border: 1px solid #40404010 !important;
+}
+
+hr {
+    width: 100% !important;
+    border-top: 1px solid #808080 !important;
+    margin-bottom: 5px !important;
+}
+
+
+
+
+
+.glitch {
+    position: relative;
+    color: yellow;
+    mix-blend-mode: lighten;
+  }
+  
+  .glitch:before,
+  .glitch:after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: black;
+    clip: rect(0, 0, 0, 0);
+  }
+  
+  .glitch:before {
+    left: -4px;
+    text-shadow: 6px 0 #ff00ff;
+  }
+  
+  .glitch:hover:before {
+    text-shadow: 4px 0 #ff00ff;
+    animation: glitch-anim-1 0.4s infinite ease-in-out alternate-reverse;
+  }
+  
+  .glitch:after {
+    left: 4px;
+    text-shadow: -3px 0 #00ffc8;
+  }
+  
+  .glitch:hover:after {
+    text-shadow: -5px 0 #00ffc8;
+    animation: glitch-anim-2 0.3s infinite ease-in-out alternate-reverse;
+  }
