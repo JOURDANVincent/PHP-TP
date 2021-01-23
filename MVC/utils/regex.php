@@ -12,4 +12,8 @@
     define('R_POLE', "/^[0-9]{7}[A-Z]$/");
 
     // ^([1-9]([a-z]){1}[1-9])$
+
+
+
+    // include (dirname(__FILE__) . '/../ddddddd.php' );
 ?>
